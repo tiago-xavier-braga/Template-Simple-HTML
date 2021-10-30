@@ -1,0 +1,54 @@
+html{
+	background-color: #0d1227;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+}
+.top{
+	display: flex;
+	flex-direction: row;
+	margin: 2vh 0vh 0vh 6vw; 
+	justify-content: space-between;
+}
+.clock{
+	display: flex;
+	flex-direction: column;
+	font-size: 5rem;
+}
+p { 
+	margin: 0; 
+}
+.hour{
+	color: #ef8209;
+	border-bottom: 1px #fff solid;
+}
+.minutes{
+	color: #fff;
+}
+.pendulum{
+	height: 55vh;
+	width: 45vw;
+}
+.weather{
+	color: #fff;
+	position: relative;
+	margin: 15vh 0vh 2vh 6vw; 
+}
+.celsius{
+	font-size: 2rem;
+	font-weight: 300;
+}
+.forecast-day{
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+@media (min-width: 600px){
+	.pendulum{
+		height: 60vh;
+		width: 30vh;
+	}
+}
